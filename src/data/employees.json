@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "favoriteSport": "Football",
+    "accomplishments": "Won the championship",
+    "age": 35,
+    "salary": 120000
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "favoriteSport": "Basketball",
+    "accomplishments": "Scored 100 points",
+    "age": 50,
+    "salary": 80000
+  },
+  {
+    "id": 3,
+    "name": "Mark Johnson",
+    "favoriteSport": "Tennis",
+    "accomplishments": "Won multiple Grand Slam titles",
+    "age": 65,
+    "salary": 50000
+  }
+]
