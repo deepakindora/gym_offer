@@ -14,19 +14,19 @@ const App = () => {
       <Router>
         <div className="App">
           <Routes>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/employee/:id" component={EmployeeDetails} />
+            <Route exact path="/" element={<Home />} />
+            <Route exact path="/employee/:id" element={<EmployeeDetails />} />
             <Route
               exact
               path="/employee/:id/gym-offers"
-              component={GymOffers}
+              element={<GymOffers />}
             />
             <Route
               exact
               path="/employee/:id/gym-offers/apply-offer"
-              component={ApplyOffer}
+              element={<ApplyOffer />}
             />
-            <Route exact path="/success" component={SuccessPage} />
+            <Route exact path="/success" element={<SuccessPage />} />
           </Routes>
         </div>
       </Router>
